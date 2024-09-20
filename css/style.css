@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #555;
+    /* background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/47c2bc92-5a2a-4f33-8f91-4314e9e62ef1/web/NP-en-20240916-TRIFECTA-perspective_d75f56d6-f8ec-42e5-9179-6c690a4a0fbb_large.jpg); */
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+h2{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+h3{
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.white{
+    color: white;
+}
+.flex{
+    display: flex;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.membership{
+    background-color: black;
+    flex-direction: column;
+}
+.membership>.container{
+    width: 900px;
+    text-align: center;
+}

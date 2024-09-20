@@ -1,0 +1,99 @@
+.home{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home>.container{
+    flex-direction: column;
+}
+.home-content{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    padding-top: 15%;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center ;
+}
+.home-content-text>h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+.usd{
+    font-size: 1.5rem;
+    padding-top: 2%;
+    font-weight: 500;
+}
+.small-text{
+    padding-top: 7%;
+    font-size: 1.1rem;
+}
+
+.home-form{
+    height: 10vh;
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    gap: 1%;
+}
+.home-form>input, .home-form>button{
+    height: 80%;
+}
+.home-form>input{
+    width: 65%;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    background-color: #000000;
+    border: 2px solid white;
+}
+.home-form>button{
+    width: 35%;
+    border: none;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.home-form>button:hover{
+    background-color: #e50914;
+}
+.home-form>button>a{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+/* Background with movie posters or any background image */
+.curved-background {
+    background-image: url(/assets/Capture.JPG);
+    background-position: center;
+    background-size: cover;
+    align-items: end;
+    height: 10vh;
+    width: 100vw;
+    padding-top: 7%;
+    margin-top: 6%;
+}
+
+.trending-now{
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+}
+.trending-now>.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:3%;
+}
+.trending-arrow{
+    background-color: #666;
+    height: 100%;
+    cursor: pointer;
+}
+.trending-arrow:hover{
+    background-color: #aaa;
+}

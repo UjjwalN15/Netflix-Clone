@@ -1,0 +1,32 @@
+.asked-questions{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+.asked-questions>.container{
+    height: 100%;
+    padding-top: 2%;
+}
+.question-list{
+    height: 90%;
+    width: 100%;
+    margin-top: 1%;
+    flex-direction: column;
+    gap: 2%;
+}
+.questions{
+    height: 15%;
+    width: 100%;
+    padding: 0 3%;
+    background: linear-gradient(to right, #222,#555, #bbb);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.questions:hover{
+    background: linear-gradient(to right, #444,#888, #ddd);
+}
+.questions>img{
+    color: white;
+}

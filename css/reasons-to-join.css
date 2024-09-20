@@ -1,0 +1,32 @@
+.reasons-to-join{
+    background-color: black;
+}
+.cards{
+    height: 40vh;
+    width: 100%;
+    gap: 2%;
+    justify-content: space-between;
+}
+.card{
+    height: 75%;
+    width: 25%;
+    padding: 2%;
+    background:linear-gradient(to top left, black, #888);
+    border-radius: 20px;
+    color: white;
+}
+.card>p{
+    color: white;
+    opacity: 0.7;
+    padding-top: 10%;
+}
+.card-img{
+    height: 40%;
+    width: 100%;
+    margin-top: 1%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.card-img>img{
+    height: 100%;
+}
